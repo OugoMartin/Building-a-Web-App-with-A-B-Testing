@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home A</title>
+</head>
+<body>
+    <h1>Welcome to Version A</h1>
+    <button onclick="recordClick()">Click Me</button>
+</body>
+<script>
+    function recordClick() {
+        console.log('Button clicked on Version A');
+    }
+</script>
+</html>
