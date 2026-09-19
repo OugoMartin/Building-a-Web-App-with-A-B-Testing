@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Intro Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumina experiment preview</title>
+  <link rel="stylesheet" href="src/shared/styles.css">
 </head>
-<body>
-    <h1>Welcome to the Web App</h1>
-    <a href="/login">Go to Home</a>
+<body class="chooser">
+  <main>
+    <p class="eyebrow">A/B TEST PROTOTYPE</p>
+    <h1>Lumina Desk Lamp experiment</h1>
+    <p>Preview either experience. In a production experiment, assignment would happen server-side and remain stable for each visitor.</p>
+    <nav class="variant-links" aria-label="Experiment variants">
+      <a class="button secondary" href="src/variant-a/index.html">Open control (A)</a>
+      <a class="button primary" href="src/variant-b/index.html">Open treatment (B)</a>
+    </nav>
+  </main>
 </body>
 </html>
